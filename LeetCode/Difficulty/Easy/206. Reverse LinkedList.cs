@@ -40,6 +40,30 @@ public class ReverseLinkedList
 
         return head;
     }
+
+    // More efficient solution:
+    public static ListNode Solution2(ListNode head)
+    {
+        ListNode cur = head;
+
+        List<int> temp = new List<int>();
+        
+        while(cur != null)
+        {
+            temp.Add(cur.val);
+            cur = cur.next;
+        }
+
+        cur = head;
+
+        for(int i = temp.Count -1; i > -1; --i)
+        {
+            cur.val = temp[i];
+            cur = cur.next;
+        }
+
+        return head;
+    }
 }
 
 public class ListNode 

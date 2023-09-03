@@ -23,7 +23,7 @@ int[][] mat  = new int[5][]
 };
 
 
-var result = DiagonalTraverse.Solution(mat);
+var result = DiagonalTraverse.Solution1(mat);
 
 foreach(var r in result)
 {

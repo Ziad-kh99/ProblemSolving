@@ -12,7 +12,7 @@ using customNode = LeetCode.Easy;
 //             new customNode.ListNode(1)))));
 
 
-
+/*
 int[][] mat  = new int[5][] 
 {
     new int[] {1, 2, 3, 4, 5},
@@ -29,6 +29,10 @@ foreach(var r in result)
 {
     Console.WriteLine($"{r}, ");
 }
+*/
 
 
+char[] s = new char[] {'s'};
+
+ReverseString.Solution(s);
 

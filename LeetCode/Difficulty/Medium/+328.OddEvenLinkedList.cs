@@ -10,8 +10,8 @@
  * }
  */
  
-public class Solution {
-    public ListNode OddEvenList(ListNode head) {
+// public class Solution {
+//     public ListNode OddEvenList(ListNode head) {
         
-    }
-}
+//     }
+// }

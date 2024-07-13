@@ -1,20 +1,28 @@
-﻿using LeetCode.Easy;
+﻿using System.Security.AccessControl;
+using LeetCode.Easy;
 using LeetCode.Medium;
 using Sheet.A;
 
 using customNode = LeetCode.Easy;
 
+/* Test Cases:
+{"jbboxe","yshcrtanrtlzyyp","vudsssnzuef","lde"};
+{"jbboxeyshcrtanrt","lzyypvudsssnzueflde"};
+
+*/
 
 
+string[] word1 = {"jbboxe","yshcrtanrtlzyyp","vudsssnzuef","lde"};
+string[] word2 = {"jbboxeyshcrtanrt","lzyypvudsssnzueflde"};
 
-int[] nums = {0};
+// string str = "acfbe";
 
-int[] result = PlusOne.Solution(nums);
+// Array.Sort(str.ToCharArray());
 
-foreach (int i in result)
-{
-    Console.Write($"{i}, ");
-}
 
+// Console.WriteLine(str);
+
+
+Console.WriteLine(CheckIfTwoStringArraysAreEquivalent.Solution(word1, word2));
 
 

@@ -12,17 +12,10 @@ using customNode = LeetCode.Easy;
 */
 
 
-string[] word1 = {"jbboxe","yshcrtanrtlzyyp","vudsssnzuef","lde"};
-string[] word2 = {"jbboxeyshcrtanrt","lzyypvudsssnzueflde"};
+string date1 = "2020-01-20", date2 = "2020-01-20";
 
-// string str = "acfbe";
+int result = NumberOfDaysBetweenTwoDates.Solution(date1, date2);
 
-// Array.Sort(str.ToCharArray());
-
-
-// Console.WriteLine(str);
-
-
-Console.WriteLine(CheckIfTwoStringArraysAreEquivalent.Solution(word1, word2));
+Console.WriteLine(PowerOfTwo.Solution(1_073_741_824));
 
 

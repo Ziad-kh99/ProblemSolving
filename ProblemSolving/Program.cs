@@ -12,10 +12,10 @@ using customNode = LeetCode.Easy;
 */
 
 
-string date1 = "2020-01-20", date2 = "2020-01-20";
+var result = ValidPalindrome.Solution("......a......");
 
-int result = NumberOfDaysBetweenTwoDates.Solution(date1, date2);
+Console.WriteLine(result);
 
-Console.WriteLine(PowerOfTwo.Solution(1_073_741_824));
+// Console.WriteLine(b);
 
 
